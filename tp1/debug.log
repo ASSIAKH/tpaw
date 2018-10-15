@@ -7,3 +7,6 @@
 [1015/171526.013:ERROR:crash_report_database_win.cc(547)] GetFileAttributes C:\Users\khoufach\AppData\Local\Google\Chrome\User Data\Crashpad\reports: Accès refusé. (0x5)
 [1015/171526.018:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
 [1015/171526.019:ERROR:crash_report_database_win.cc(547)] GetFileAttributes C:\Users\khoufach\AppData\Local\Google\Chrome\User Data\Crashpad\reports: Accès refusé. (0x5)
+[1015/205043.260:ERROR:crash_report_database_win.cc(547)] GetFileAttributes C:\Users\khoufach\AppData\Local\Google\Chrome\User Data\Crashpad\reports: Accès refusé. (0x5)
+[1015/205043.320:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[1015/205043.330:ERROR:crash_report_database_win.cc(547)] GetFileAttributes C:\Users\khoufach\AppData\Local\Google\Chrome\User Data\Crashpad\reports: Accès refusé. (0x5)
