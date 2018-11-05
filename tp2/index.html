@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TP2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <style>
+          body {
+              background-color: #e9ebee;              
+              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+              font-size: 16px;
+              margin: 0 auto;
+              max-width: 800px;              
+          }
+        </style>
+        
+        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="formulaire.js"></script>
+        <!--<script src="js/main.js"></script>-->
+    </head>
+    <body>
+    
+      <form action="">
+        
+          <div class="head"></div>
+          <h1>Saisie d'une fiche "PERSONNE"</h1>
+      </form>
+      
+      
+      <div class="group_input"> 
+        
+        
+            <form action="" >
+                    Nom:<br>
+                    <input type="text" name="nom" id="nom" value="" min="5" max="20" placeholder="votre nom est:"required="required">
+                    <div class="val_errur"> </div> 
+                  </form>
+                  <form action="">
+                    Prénom:<br>
+                    <input type="text" name="prénom" id="prénom" value=""placeholder="votre prénom est:" min="5" max="20"required="required">
+                    <div  class="val_errur"> </div> 
+                  </form>
+                  <form action="">
+                    Date de naissance:<br>
+                    <input type="Date" name="date-naissance"id="date" value=""placeholder=""required="required">
+                    <div  class="val_errur"> </div> 
+
+                  </form>
+                  <form action="">
+                    Adresse:<br>
+                    <input type="text" name="adresse"id="adresse" value=""placeholder="votre adresse est:" min="5" max="50"required="required">
+                    <div  class="val_errur"> </div> 
+
+                  </form>
+                  <form action="">
+                    Mail:<br>
+                    <input type="email" name="mail" id="mail"value=""placeholder="votre mail est" min="5" max="30"required="required">
+                  
+          
+
+
+                  </form>
+
+                  <form action="">
+                
+                        <input type="button" value="Valider"onclick="validation()">
+                        <div id="erreur"class="l_erreur"></div> 
+                        <div id="resultat"class="le_resultat"></div>
+                      </div>
+                         
+                       
+                </form>
+
+                
+                
+        
+    </body>
+</html>
