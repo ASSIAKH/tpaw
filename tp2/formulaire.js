@@ -1,5 +1,5 @@
 
-function validation(){
+function validation()  {
     if(document.getElementById("nom").value==""){
         document.getElementById("erreur").innerHTML = "La saisie du nom est obligatoire"
         
