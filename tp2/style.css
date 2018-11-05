@@ -19,6 +19,7 @@ form input{
 }
 .l_erreur{
     
+    
     width: 92%;
     margin: 0px auto;
     padding: 10px;
@@ -34,7 +35,7 @@ form input{
 }
 
 .le_resultat{
-    display:none;
+    
     display:none;
    
     margin:0 auto 10px;
@@ -55,4 +56,8 @@ input:required{
 
     background:white;
     box-sizing: border-box;
+}
+.head{background-position: center;
+
+
 }
