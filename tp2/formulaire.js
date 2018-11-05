@@ -14,6 +14,7 @@ function validation() {
     else if (document.getElementById("prénom").value == "") {
         document.getElementById("erreur").innerHTML = "La saisie du prénom est obligatoire"
     }
+    
     else if (document.getElementById("prénom").value.length < 5) {
         document.getElementById("erreur").innerHTML = "le prénom doit contenir au moins 5caractères "
         document.getElementById("resultat").style.display = "none"
