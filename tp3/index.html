@@ -10,24 +10,78 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
+<!-- jquery pour pouvoir utiliser les composants JS de boostap (modal, tooltip...) -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+
+<!-- CSS boostrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/popper.min.js"></script>
+
+<!-- composants JS de boostrap (modal http://getbootstrap.com/docs/4.0/components/modal/ , collapse...) -->
+<script src="js/bootstrap.min.js"></script>
+
+
+
         <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
         <!--<link rel="stylesheet" href="style.css">-->
         <!--<script src="main.js"></script>-->
+        <script src="js/form-jquery-validation.js"></script>
     </head>
     <body>        
-        <h1>tp3</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+        <h1>Formulaire</h1>
+        <div class="container">
+        
+
+
+            <form>
+                <div class="form-group">
+                  <label for="input-nom">Nom</label>
+                  <input type="text" class="form-control controle" id="nom"  placeholder="Enter nom">
+                  
+                  
+                    <div class="form-group">
+                      <label for="input-prenom">Prénom</label>
+                      <input type="text" class="form-control controle" id="prenom"  placeholder="Enter prenom">
+                      
+                        <div class="form-group">
+                          <label for="select-date">Date naissance</label>
+                          <input type="date" class="form-control controle" id="date-naissance"  placeholder="select-date">
+                          
+                          
+                            <div class="form-group">
+                              <label for="input-adresse">Adresse</label>
+                              <input type="text" class="form-control controle" id="adresse"  placeholder="Enter adresse">
+                              
+                            <div class="form-group">
+                                <label for="input-mail">Mail</label>
+                                <input type="text" class="form-control controle" id="mail"  placeholder="Entrer mail">
+                
+                </div>
+                <input type="button" value="valider" id="valide">
+                         
+            </div>
+              </form>
+          
+          <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" >
+                  
+                  <p >Corps de la modal à modifier après validation du formulaire</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </body>
 </html>
