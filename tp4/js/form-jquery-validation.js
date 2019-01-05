@@ -11,12 +11,12 @@ $(document).ready(function () {
 
       
         $(document).keyup(function () {
-           var nbcaract= $('#name').val().length;   
+           var nbcaract= $("#name").val().length;   
            var msg=nbcaract+'car';
            $('#compteur1').text(msg);
 
 
-           var nbcaract2= $('#firstname').val().length;   
+           var nbcaract2= $("#firstname").val().length;   
            var msg2=nbcaract2+'car';
            $('#compteur2').text(msg2);
 
