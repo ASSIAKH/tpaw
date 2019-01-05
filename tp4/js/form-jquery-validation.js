@@ -13,10 +13,7 @@ $(document).ready(function () {
         $(document).keyup(function () {
            var nbcaract= $('#name').val().length;   
            var msg=nbcaract+'car';
-           $('#compt1').text(msg);
-           var nbcaract2= $('#firstname').val().length;   
-           var msg2=nbcaract2+'car';
-           $('#compt2').text(msg2);
+           $('#compteur1').text(msg);
 
         if ($('#nom').val().length < 5 || $('#nom').val() == "") {
          
