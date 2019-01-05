@@ -1,10 +1,14 @@
 $( document ).ready(function() {
      console.log( "DOM ready!" );
-
-     $("#valide").on("click",function(event){ 
-        event.preventDefault(); 
-        console.log( "click" ); 
-
+     $(document).keyup(function(){
+ 
+        $("#nomL").html($("#nom").val().length + " Car");
+            $("#prenomL").html($("#prenom").val().length + " Car");
+            $("#bdayL").html($("#bday").val().length + " Car");
+            $("#adressL").html($("#adress").val().length + " Car");
+            $("#mailL").html($("#mail").val().length + " Car");
+        
+    
         if ($('#nom').val().length < 5 || $('#nom').val() == "") { 
             
         
@@ -43,7 +47,9 @@ $( document ).ready(function() {
 
 
     }
+    
      // Y mettre le code jQuery pour valider tous les champs du formulaire
 
  }); 
+ 
 });
