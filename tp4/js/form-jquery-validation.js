@@ -15,6 +15,11 @@ $(document).ready(function () {
            var msg=nbcaract+'car';
            $('#compteur1').text(msg);
 
+
+           var nbcaract2= $('#firstname').val().length;   
+           var msg2=nbcaract2+'car';
+           $('#compteur2').text(msg2);
+
         if ($('#nom').val().length < 5 || $('#nom').val() == "") {
          
 
