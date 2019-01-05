@@ -7,9 +7,7 @@ $(document).ready(function () {
         getLocation() 
     })
 
-    $( "input" ).keyup(function() {
-        console.log($(this).val())
-      });
+   
 
 
       $(document).ready(function () {
