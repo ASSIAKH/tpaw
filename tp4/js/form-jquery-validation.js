@@ -11,9 +11,10 @@ $(document).ready(function () {
 
       
         $(document).keyup(function () {
-           var nbcaract= $('#name').val.length;   
+           var nbcaract= $('#name').val().length;   
            var msg=nbcaract+'car';
-           $('#cpt1').text(msg);
+           $('#compteur1').text(msg);
+
         if ($('#nom').val().length < 5 || $('#nom').val() == "") {
          
 
