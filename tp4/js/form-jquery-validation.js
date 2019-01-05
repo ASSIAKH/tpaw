@@ -21,8 +21,8 @@ $(document).ready(function () {
                 $("#bdayL").html($("#bday").val().length + " Car");
                 $("#adressL").html($("#adress").val().length + " Car");
                 $("#mailL").html($("#mail").val().length + " Car");
-            });
-        })
+        
+    
 
         if ($('#nom').val().length < 5 || $('#nom').val() == "") {
 
