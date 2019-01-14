@@ -89,6 +89,7 @@ window.onload = function () {
             return response.json();
         })
         .then(function(json) {
+            
             app.cityWeatherLoading = false;
 
             // test du code retour
