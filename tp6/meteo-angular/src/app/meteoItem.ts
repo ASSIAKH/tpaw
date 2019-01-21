@@ -4,4 +4,7 @@ export class MeteoItem {
     name: string;
     weather: any;
 
+
 }
+
+
